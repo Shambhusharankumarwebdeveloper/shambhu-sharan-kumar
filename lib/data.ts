@@ -115,27 +115,49 @@ export const services = [
 export const experience = [
   {
     company: 'Zydus Wellness',
-    role: 'Web Developer',
-    date: 'Aug 2025–present',
-    desc: 'Responsive e-commerce web interfaces, product pages, UI components, content integration, promotional landing pages and website enhancements, plus newsletter development and email campaigns.',
+    role: 'Frontend Web Developer',
+    date: 'Aug 2025–Present',
+    desc: 'Scalable e-commerce platforms and an admin panel with React.js and Next.js.',
+    points: [
+      'Led development of scalable e-commerce platforms and an admin panel with React.js and Next.js, boosting sales 30% through better UX and speed.',
+      'Refactored legacy code to raise application performance 30% and cut load time 50%.',
+      'Spearheaded cross-functional collaboration to deliver a responsive UI, lifting user engagement 25%.',
+      'Strengthened reliability 25% through REST API integration and targeted optimization updates.',
+      'Trained and supported 5 internal teams on site navigation, delivering a 30% improvement.',
+      'Crafted HTML email newsletters for campaigns across several markets.',
+      'Used generative AI and agent prompting to speed up development and content tasks.',
+    ],
   },
   {
     company: 'Comfort Click Pvt. Ltd.',
     role: 'Web Developer',
     date: 'Apr 2023–Jul 2025',
-    desc: 'Web development for WeightWorld, ShytoBuy and Animigo across nine European markets, with a focus on website implementation, optimisation and e-commerce requirements.',
+    desc: 'Web development for WeightWorld, ShytoBuy and Animigo across nine European markets.',
+    points: [
+      'Developed 5 responsive web interfaces with Bootstrap, improving user engagement by 30% through dynamic visuals.',
+      'Managed front-end application lifecycle using structured development (SDLC).',
+      'Created branding and graphic assets: logos, banners, and interactive elements.',
+      'Implemented SEO strategies aligned with front-end development.',
+    ],
+  },
+  {
+    company: 'Numerator Pvt. Ltd.',
+    role: 'Web Producer',
+    date: 'Jun 2020–Apr 2023',
+    desc: 'High-performance websites and mobile apps with React.js, HTML/CSS, and jQuery.',
+    points: [
+      'Engineered and maintained high-performance websites and mobile apps with React.js, HTML/CSS, and jQuery.',
+      'Translated UI/UX designs into responsive, production-ready interfaces using Bootstrap and JavaScript, enhancing user engagement by 25%.',
+      'Spearheaded content and component integration using Sitecore CMS.',
+      'Enhanced user experience by integrating 5+ 3rd-party APIs, resulting in a 25% increase in user engagement.',
+    ],
   },
   {
     company: 'DSPL Pvt. Ltd.',
     role: 'HTML Developer',
     date: '',
     desc: 'Responsive web layouts, page structures and digital content components as an HTML Developer.',
-  },
-  {
-    company: 'Numerator',
-    role: 'Data Classification & Researcher',
-    date: '',
-    desc: 'Data classification and research projects involving FMCG products, supplier information and structured product data.',
+    points: [],
   },
 ];
 
