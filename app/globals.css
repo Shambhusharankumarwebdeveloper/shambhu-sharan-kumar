@@ -1,1 +1,194 @@
-QHRhaWx3aW5kIGJhc2U7CkB0YWlsd2luZCBjb21wb25lbnRzOwpAdGFpbHdpbmQgdXRpbGl0aWVzOwoKOnJvb3QgewogIC0tbGltZTogI2M4ZjU0MjsKICAtLW5lYXItYmxhY2s6ICMwYTBhMGE7CiAgLS1jYXJkOiAjMTcxNzE3Owp9CgpodG1sIHsKICBzY3JvbGwtYmVoYXZpb3I6IHNtb290aDsKICBzY3JvbGwtcGFkZGluZy10b3A6IDVyZW07Cn0KCmJvZHkgewogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLW5lYXItYmxhY2spOwogIGNvbG9yOiAjZmZmZmZmOwogIGZvbnQtZmFtaWx5OiBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sICdTZWdvZSBVSScsIHNhbnMtc2VyaWY7CiAgLXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7Cn0KCi8qIEdpYW50IGhlcm8gd29yZDogaGVhdnkgd2hpdGUtdG8tZ3JleSBncmFkaWVudCBjYXBpdGFscyAqLwouaGVyby13b3JkIHsKICBmb250LXNpemU6IGNsYW1wKDMuMjVyZW0sIDEzdncsIDEycmVtKTsKICBmb250LXdlaWdodDogOTAwOwogIGxpbmUtaGVpZ2h0OiAwLjk7CiAgbGV0dGVyLXNwYWNpbmc6IC0wLjAyZW07CiAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsKICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDE4MGRlZywgI2ZmZmZmZiAyMCUsICM5Y2EzYWYgNzUlLCAjNGI1NTYzIDEwMCUpOwogIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiB0ZXh0OwogIGJhY2tncm91bmQtY2xpcDogdGV4dDsKICBjb2xvcjogdHJhbnNwYXJlbnQ7CiAgdXNlci1zZWxlY3Q6IG5vbmU7Cn0KCi8qIEZhaW50IGNvbmNlbnRyaWMgY2lyY2xlcyBiZWhpbmQgdGhlIGhlcm8gd29yZCAqLwouaGVyby1jaXJjbGVzIHsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgaW5zZXQ6IDA7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGp1c3RpZnktY29udGVudDogY2VudGVyOwogIHBvaW50ZXItZXZlbnRzOiBub25lOwogIG92ZXJmbG93OiBoaWRkZW47Cn0KCi5oZXJvLWNpcmNsZSB7CiAgcG9zaXRpb246IGFic29sdXRlOwogIGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC4xMik7CiAgYm9yZGVyLXJhZGl1czogOTk5OXB4Owp9CgouaGVyby1jaXJjbGUtMSB7CiAgd2lkdGg6IG1pbig5MHZ3LCAzNHJlbSk7CiAgaGVpZ2h0OiBtaW4oOTB2dywgMzRyZW0pOwp9CgouaGVyby1jaXJjbGUtMiB7CiAgd2lkdGg6IG1pbig3MHZ3LCAyNnJlbSk7CiAgaGVpZ2h0OiBtaW4oNzB2dywgMjZyZW0pOwp9CgouaGVyby1jaXJjbGUtMyB7CiAgd2lkdGg6IG1pbig1MHZ3LCAxOHJlbSk7CiAgaGVpZ2h0OiBtaW4oNTB2dywgMThyZW0pOwp9CgovKiBPcmJpdGluZyBsaW1lIGRvdCB0cmF2ZWxsaW5nIGFyb3VuZCB0aGUgbGFyZ2VzdCBjaXJjbGUgKi8KLmhlcm8tb3JiaXQgewogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICB3aWR0aDogbWluKDkwdncsIDM0cmVtKTsKICBoZWlnaHQ6IG1pbig5MHZ3LCAzNHJlbSk7CiAgYW5pbWF0aW9uOiBoZXJvLW9yYml0IDE0cyBsaW5lYXIgaW5maW5pdGU7Cn0KCi5oZXJvLW9yYml0LWRvdCB7CiAgcG9zaXRpb246IGFic29sdXRlOwogIHRvcDogLTAuMzc1cmVtOwogIGxlZnQ6IDUwJTsKICB3aWR0aDogMC43NXJlbTsKICBoZWlnaHQ6IDAuNzVyZW07CiAgbWFyZ2luLWxlZnQ6IC0wLjM3NXJlbTsKICBib3JkZXItcmFkaXVzOiA5OTk5cHg7CiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGltZSk7CiAgYm94LXNoYWRvdzogMCAwIDE4cHggcmdiYSgyMDAsIDI0NSwgNjYsIDAuOCk7Cn0KCkBrZXlmcmFtZXMgaGVyby1vcmJpdCB7CiAgZnJvbSB7CiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsKICB9CiAgdG8gewogICAgdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsKICB9Cn0KCi8qIExpbWUgYWNjZW50IGhlbHBlcnMgKHBsYWluIENTUywgbm8gY3VzdG9tIFRhaWx3aW5kIHRoZW1lIG5lZWRlZCkgKi8KLmxpbWUtdGV4dCB7CiAgY29sb3I6IHZhcigtLWxpbWUpOwp9CgoubGltZS1iZyB7CiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGltZSk7Cn0KCi5saW1lLWRvdCB7CiAgZGlzcGxheTogaW5saW5lLWJsb2NrOwogIHdpZHRoOiAwLjVyZW07CiAgaGVpZ2h0OiAwLjVyZW07CiAgYm9yZGVyLXJhZGl1czogOTk5OXB4OwogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpbWUpOwp9CgoubGltZS11bmRlcmxpbmUgewogIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOwogIHRleHQtZGVjb3JhdGlvbi1jb2xvcjogdmFyKC0tbGltZSk7CiAgdGV4dC1kZWNvcmF0aW9uLXRoaWNrbmVzczogM3B4OwogIHRleHQtdW5kZXJsaW5lLW9mZnNldDogNnB4Owp9CgovKiBNb25vZ3JhbSBibG9jayBpbiB0aGUgaGVybyAqLwoubW9ub2dyYW0gewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICB3aWR0aDogOXJlbTsKICBoZWlnaHQ6IDlyZW07CiAgYm9yZGVyLXJhZGl1czogMS41cmVtOwogIGJvcmRlcjogMnB4IHNvbGlkIHZhcigtLWxpbWUpOwogIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNhcmQpOwogIGZvbnQtc2l6ZTogMy41cmVtOwogIGZvbnQtd2VpZ2h0OiA5MDA7CiAgbGV0dGVyLXNwYWNpbmc6IC0wLjA1ZW07CiAgYm94LXNoYWRvdzogMCAwIDAgOHB4IHJnYmEoMjAwLCAyNDUsIDY2LCAwLjA4KTsKfQoKLyogUm90YXRpbmcgY29uY2VwdCB3b3JkICovCi5jb25jZXB0LXdvcmQgewogIGNvbG9yOiB2YXIoLS1saW1lKTsKICBhbmltYXRpb246IGNvbmNlcHQtaW4gMC41cyBlYXNlIGJvdGg7Cn0KCkBrZXlmcmFtZXMgY29uY2VwdC1pbiB7CiAgZnJvbSB7CiAgICBvcGFjaXR5OiAwOwogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDEycHgpOwogIH0KICB0byB7CiAgICBvcGFjaXR5OiAxOwogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogIH0KfQoKLyogQWNjb3JkaW9uOiBzbW9vdGggZXhwYW5kL2NvbGxhcHNlIHdpdGhvdXQgSmF2YVNjcmlwdCBoZWlnaHQgbWF0aHMgKi8KLmFjY29yZGlvbi1ib2R5IHsKICBkaXNwbGF5OiBncmlkOwogIGdyaWQtdGVtcGxhdGUtcm93czogMGZyOwogIHRyYW5zaXRpb246IGdyaWQtdGVtcGxhdGUtcm93cyAwLjM1cyBlYXNlOwp9CgouYWNjb3JkaW9uLWJvZHktb3BlbiB7CiAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiAxZnI7Cn0KCi5hY2NvcmRpb24taW5uZXIgewogIG92ZXJmbG93OiBoaWRkZW47Cn0KCkBtZWRpYSAocHJlZmVycy1yZWR1Y2VkLW1vdGlvbjogcmVkdWNlKSB7CiAgLmhlcm8tb3JiaXQsCiAgLmNvbmNlcHQtd29yZCB7CiAgICBhbmltYXRpb246IG5vbmU7CiAgfQoKICBodG1sIHsKICAgIHNjcm9sbC1iZWhhdmlvcjogYXV0bzsKICB9Cn0KCi5oZXJvLXBob3RvIHsKICB3aWR0aDogMTRyZW07CiAgaGVpZ2h0OiAxOHJlbTsKICBmbGV4LXNocmluazogMDsKICBvYmplY3QtZml0OiBjb3ZlcjsKICBvYmplY3QtcG9zaXRpb246IHRvcCBjZW50ZXI7CiAgYm9yZGVyLXJhZGl1czogMXJlbTsKICBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMTgpOwogIGJveC1zaGFkb3c6IDAgMjBweCA1MHB4IHJnYmEoMCwgMCwgMCwgMC41KTsKfQpAbWVkaWEgKG1heC13aWR0aDogNjQwcHgpIHsKICAuaGVyby1waG90byB7IHdpZHRoOiAxMXJlbTsgaGVpZ2h0OiAxNHJlbTsgfQp9Cg==
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --lime: #c8f542;
+  --near-black: #0a0a0a;
+  --card: #171717;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background-color: var(--near-black);
+  color: #ffffff;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Giant hero word: heavy white-to-grey gradient capitals */
+.hero-word {
+  font-size: clamp(3.25rem, 13vw, 12rem);
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(180deg, #ffffff 20%, #9ca3af 75%, #4b5563 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  user-select: none;
+}
+
+/* Faint concentric circles behind the hero word */
+.hero-circles {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.hero-circle {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+
+.hero-circle-1 {
+  width: min(90vw, 34rem);
+  height: min(90vw, 34rem);
+}
+
+.hero-circle-2 {
+  width: min(70vw, 26rem);
+  height: min(70vw, 26rem);
+}
+
+.hero-circle-3 {
+  width: min(50vw, 18rem);
+  height: min(50vw, 18rem);
+}
+
+/* Orbiting lime dot travelling around the largest circle */
+.hero-orbit {
+  position: absolute;
+  width: min(90vw, 34rem);
+  height: min(90vw, 34rem);
+  animation: hero-orbit 14s linear infinite;
+}
+
+.hero-orbit-dot {
+  position: absolute;
+  top: -0.375rem;
+  left: 50%;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-left: -0.375rem;
+  border-radius: 9999px;
+  background-color: var(--lime);
+  box-shadow: 0 0 18px rgba(200, 245, 66, 0.8);
+}
+
+@keyframes hero-orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Lime accent helpers (plain CSS, no custom Tailwind theme needed) */
+.lime-text {
+  color: var(--lime);
+}
+
+.lime-bg {
+  background-color: var(--lime);
+}
+
+.lime-dot {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background-color: var(--lime);
+}
+
+.lime-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--lime);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+/* Monogram block in the hero */
+.monogram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 1.5rem;
+  border: 2px solid var(--lime);
+  background-color: var(--card);
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  box-shadow: 0 0 0 8px rgba(200, 245, 66, 0.08);
+}
+
+/* Rotating concept word */
+.concept-word {
+  color: var(--lime);
+  animation: concept-in 0.5s ease both;
+}
+
+@keyframes concept-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Accordion: smooth expand/collapse without JavaScript height maths */
+.accordion-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s ease;
+}
+
+.accordion-body-open {
+  grid-template-rows: 1fr;
+}
+
+.accordion-inner {
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-orbit,
+  .concept-word {
+    animation: none;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.hero-photo {
+  width: 14rem;
+  height: 18rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 640px) {
+  .hero-photo { width: 11rem; height: 14rem; }
+}
