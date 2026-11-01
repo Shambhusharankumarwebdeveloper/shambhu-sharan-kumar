@@ -161,17 +161,34 @@ export const experience = [
   },
 ];
 
-export const skills = [
-  'React',
-  'Next.js',
-  'TypeScript',
-  'Redux',
-  'Tailwind CSS',
-  'HTML5',
-  'CSS3',
-  'JavaScript',
-  'REST APIs',
-  'Bootstrap',
-  'SQL',
+export const skillGroups = [
+  {
+    category: 'Frontend',
+    items: ['React.js', 'Redux', 'Next.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'SASS/Less', 'Tailwind CSS', 'Bootstrap'],
+  },
+  {
+    category: 'Practices',
+    items: ['Reusable and modular components', 'Component-based architecture', 'Responsive and mobile-first design', 'Cross-browser compatibility', 'Web performance optimization', 'WCAG 2.x accessibility', 'Functional testing and QA', 'Role-based access control (RBAC)', 'State management'],
+  },
+  {
+    category: 'API Integration',
+    items: ['REST API integration', 'Ajax', 'Fetch API', 'JSON data handling', 'CRUD operations', 'JWT', 'Postman', 'Authentication', 'Pagination'],
+  },
+  {
+    category: 'E-commerce and Email',
+    items: ['Multi-market e-commerce websites', 'HTML email templates', 'Klaviyo', 'Omnisend'],
+  },
+  {
+    category: 'AI',
+    items: ['Generative AI', 'Agentic AI prompting', 'AI-assisted development'],
+  },
+  {
+    category: 'Tools',
+    items: ['Git', 'GitHub', 'Webpack', 'Babel', 'NPM', 'Jira', 'ClickUp', 'Azure', 'Figma', 'Zeplin', 'Sitecore CMS', 'VS Code'],
+  },
+  {
+    category: 'Other',
+    items: ['MySQL', 'SQL', 'Python', 'jQuery', 'Adobe Photoshop', 'FTP', 'FileZilla'],
+  },
 ];
 
