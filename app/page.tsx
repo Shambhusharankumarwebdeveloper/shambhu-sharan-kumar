@@ -90,13 +90,13 @@ export default function PortfolioPage() {
               />
               <div className="max-w-3xl">
                 <p className="text-3xl font-bold leading-tight sm:text-5xl">
-                  <span className="font-black">Frontend</span>{' '}
+                  <span className="font-black">AI With Frontend</span>{' '}
                   <span className="font-light italic text-neutral-300">
                     UI Developer
                   </span>
                 </p>
                 <p className="mt-2 text-xl text-neutral-300 sm:text-2xl">
-                  &amp; React.js / Next.js
+                  &amp; React.js / Next.js / Javascript / Agentic AI
                 </p>
                 <p className="mt-6 text-base leading-relaxed text-neutral-400">
                   {site.intro}
