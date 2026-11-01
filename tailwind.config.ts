@@ -1,1 +1,12 @@
-aW1wb3J0IHR5cGUgeyBDb25maWcgfSBmcm9tICd0YWlsd2luZGNzcyc7CmNvbnN0IGNvbmZpZzogQ29uZmlnID0gewogIGNvbnRlbnQ6IFsnLi9hcHAvKiovKi57dHMsdHN4fScsICcuL2NvbXBvbmVudHMvKiovKi57dHMsdHN4fSddLAogIHRoZW1lOiB7IGV4dGVuZDogewogICAgY29sb3JzOiB7IGluazogeyA5NTA6ICcjMDcwYjE0JywgOTAwOiAnIzBjMTIyMCcsIDgwMDogJyMxMjFhMmMnLCA3MDA6ICcjMWIyNTQwJyB9LCBhY2NlbnQ6IHsgREVGQVVMVDogJyM1ZWVhZDQnLCBkaW06ICcjMmRkNGJmJyB9LCBnb2xkOiAnI2Y1YzI2YicgfSwKICAgIGZvbnRGYW1pbHk6IHsgc2FuczogWyd2YXIoLS1mb250LWludGVyKScsICdzeXN0ZW0tdWknLCAnc2Fucy1zZXJpZiddLCBkaXNwbGF5OiBbJ3ZhcigtLWZvbnQtZ3JvdGVzayknLCAndmFyKC0tZm9udC1pbnRlciknLCAnc2Fucy1zZXJpZiddIH0sCiAgICBrZXlmcmFtZXM6IHsgZmxvYXQ6IHsgJzAlLDEwMCUnOiB7IHRyYW5zZm9ybTogJ3RyYW5zbGF0ZVkoMCknIH0sICc1MCUnOiB7IHRyYW5zZm9ybTogJ3RyYW5zbGF0ZVkoLTE0cHgpJyB9IH0sIGZhZGU6IHsgZnJvbTogeyBvcGFjaXR5OiAnMCcsIHRyYW5zZm9ybTogJ3RyYW5zbGF0ZVkoOHB4KScgfSwgdG86IHsgb3BhY2l0eTogJzEnLCB0cmFuc2Zvcm06ICdub25lJyB9IH0gfSwKICAgIGFuaW1hdGlvbjogeyBmbG9hdDogJ2Zsb2F0IDdzIGVhc2UtaW4tb3V0IGluZmluaXRlJywgZmFkZTogJ2ZhZGUgLjQ1cyBlYXNlIGJvdGgnIH0sCiAgfSB9LAogIHBsdWdpbnM6IFtdLAp9OwpleHBvcnQgZGVmYXVsdCBjb25maWc7Cg==
+import type { Config } from 'tailwindcss';
+const config: Config = {
+  content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+  theme: { extend: {
+    colors: { ink: { 950: '#070b14', 900: '#0c1220', 800: '#121a2c', 700: '#1b2540' }, accent: { DEFAULT: '#5eead4', dim: '#2dd4bf' }, gold: '#f5c26b' },
+    fontFamily: { sans: ['var(--font-inter)', 'system-ui', 'sans-serif'], display: ['var(--font-grotesk)', 'var(--font-inter)', 'sans-serif'] },
+    keyframes: { float: { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-14px)' } }, fade: { from: { opacity: '0', transform: 'translateY(8px)' }, to: { opacity: '1', transform: 'none' } } },
+    animation: { float: 'float 7s ease-in-out infinite', fade: 'fade .45s ease both' },
+  } },
+  plugins: [],
+};
+export default config;
