@@ -108,6 +108,13 @@ export default function PortfolioPage() {
                   >
                     Contact <ArrowUpRight size={18} aria-hidden="true" />
                   </a>
+                  <a
+                    href="/cv.pdf"
+                    download
+                    className="inline-flex items-center gap-2 rounded-full border border-white/25 px-6 py-3 text-sm font-bold text-white transition hover:border-white hover:bg-white/10"
+                  >
+                    Download CV
+                  </a>
                   <p className="flex items-center gap-2 text-xs font-semibold tracking-widest text-neutral-300">
                     <span className="lime-dot" aria-hidden="true" />
                     AVAILABLE FOR COLLABORATIONS
