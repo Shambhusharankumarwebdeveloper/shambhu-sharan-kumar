@@ -1,1 +1,155 @@
-Ly8gVmVyaWZpZWQgbG9jYWxseSB3aXRoIHRoZSBleGFjdCBWZXJjZWwgbG9ja2ZpbGUgYnVpbGQuCmV4cG9ydCBjb25zdCBzaXRlID0gewogIG5hbWU6ICdTaGFtYmh1IFNoYXJhbicsCiAgdGl0bGU6ICdGcm9udGVuZCBEZXZlbG9wZXIgfCBBSSBQcm9tcHQgRW5naW5lZXIgfCBGTUNHIERhdGEgUmVzZWFyY2hlciB8IFB5dGhvbiBEZXZlbG9wZXInLAogIGludHJvOgogICAgJ0Zyb250ZW5kIFVJIGRldmVsb3BlciB3aXRoIDYrIHllYXJzIG9mIHByb2Zlc3Npb25hbCBmcm9udGVuZCBkZXZlbG9wZXIgZXhwZXJpZW5jZS4gQnVpbGRzIGZhc3QsIHVzZXItZm9jdXNlZCB3ZWJzaXRlcywgYWRtaW4gcGFuZWxzIGFuZCBlbWFpbCBjYW1wYWlnbnMgZm9yIG11bHRpLWJyYW5kIHJldGFpbCBhY3Jvc3MgbmluZSBFdXJvcGVhbiBtYXJrZXRzLiBTa2lsbGVkIGF0IHR1cm5pbmcgRmlnbWEgcHJvdG90eXBlcyBpbnRvIHJldXNhYmxlIGludGVyZmFjZXMsIGludGVncmF0aW5nIEFQSXMgYW5kIHR1bmluZyBwZXJmb3JtYW5jZSBhY3Jvc3MgYnJvd3NlcnMgYW5kIGRldmljZXMuIFNlZWtpbmcgYSBSZWFjdC5qcyBhbmQgTmV4dC5qcyByb2xlLicsCiAgZGVzY3JpcHRpb246CiAgICAnU2hhbWJodSBTaGFyYW4gS3VtYXIgaXMgYSBGcm9udGVuZCBEZXZlbG9wZXIgd2l0aCBoYW5kcy1vbiBleHBlcmllbmNlIGluIHJlc3BvbnNpdmUgVUkgZGV2ZWxvcG1lbnQsIHdlYiBhcHBsaWNhdGlvbnMsIEFJLWFzc2lzdGVkIHdvcmtmbG93cywgYW5kIEZNQ0cgZGF0YSByZXNlYXJjaC4nLAp9OwoKZXhwb3J0IGNvbnN0IGxpbmtzID0gewogIGVtYWlsOiAnU2hhbWJodXNoYXJhbmt1bWFyQG91dGxvb2suY29tJywKICBwaG9uZTogJzk1MDgxMzM3NzYnLAogIGxpbmtlZGluOiAnaHR0cHM6Ly9saW5rZWRpbi5jb20vaW4vc2hhbWJodS1zaGFyYW4ta3VtYXItMDAyOWI1MTkyJywKICBnaXRodWI6ICdodHRwczovL2dpdGh1Yi5jb20vU2hhbWJodXNoYXJhbmt1bWFyd2ViZGV2ZWxvcGVyJywKfTsKCmV4cG9ydCBjb25zdCBuYXYgPSBbCiAgeyBpZDogJ2hvbWUnLCBsYWJlbDogJ0hPTUUnIH0sCiAgeyBpZDogJ2Fib3V0JywgbGFiZWw6ICdBQk9VVCcgfSwKICB7IGlkOiAnc2VydmljZXMnLCBsYWJlbDogJ1NFUlZJQ0VTJyB9LAogIHsgaWQ6ICd3b3JrJywgbGFiZWw6ICdTRUxFQ1RFRCBXT1JLJyB9LAogIHsgaWQ6ICdleHBlcmllbmNlJywgbGFiZWw6ICdFWFBFUklFTkNFJyB9LAogIHsgaWQ6ICdjb250YWN0JywgbGFiZWw6ICdDT05UQUNUJyB9LApdOwoKZXhwb3J0IGNvbnN0IGNvbmNlcHRXb3JkcyA9IFsnSU1BR0lORS4nLCAnRU5HSU5FRVIuJywgJ0xBVU5DSC4nXTsKCmV4cG9ydCBjb25zdCB3b3JrcyA9IFsKICB7CiAgICBubzogJzAxJywKICAgIHRpdGxlOiAnTXVsdGktbWFya2V0IGUtY29tbWVyY2Ugc3RvcmVmcm9udHMnLAogICAgZGVzYzogJ1N0b3JlZnJvbnQgd29yayBmb3IgV2VpZ2h0V29ybGQsIFNoeXRvQnV5IGFuZCBBbmltaWdvIGFjcm9zcyBuaW5lIEV1cm9wZWFuIG1hcmtldHMg4oCUIHJlc3BvbnNpdmUgcGFnZXMsIHJldXNhYmxlIGNvbXBvbmVudHMgYW5kIGNvbnRlbnQgaW50ZWdyYXRpb24uJywKICB9LAogIHsKICAgIG5vOiAnMDInLAogICAgdGl0bGU6ICdaeWR1cyBXZWxsbmVzcyBwbGF0Zm9ybXMgJiBhZG1pbiBwYW5lbCcsCiAgICBkZXNjOiAnRS1jb21tZXJjZSBwbGF0Zm9ybXMgYW5kIGFuIGFkbWluIHBhbmVsIGF0IFp5ZHVzIFdlbGxuZXNzIOKAlCBwcm9kdWN0IHBhZ2VzLCBVSSBjb21wb25lbnRzLCBwcm9tb3Rpb25hbCBsYW5kaW5nIHBhZ2VzIGFuZCB3ZWJzaXRlIGVuaGFuY2VtZW50cy4nLAogIH0sCiAgewogICAgbm86ICcwMycsCiAgICB0aXRsZTogJ0VtYWlsICYgbmV3c2xldHRlciBjYW1wYWlnbnMnLAogICAgZGVzYzogJ05ld3NsZXR0ZXIgZGV2ZWxvcG1lbnQsIGVtYWlsIGNhbXBhaWducyBhbmQgSFRNTCBlbWFpbCBzaWduYXR1cmUgaW1wbGVtZW50YXRpb24sIGJ1aWx0IHJlc3BvbnNpdmVseSBmb3IgYnJvd3NlcnMgYW5kIGRldmljZXMuJywKICB9LAogIHsKICAgIG5vOiAnMDQnLAogICAgdGl0bGU6ICdQZXJmb3JtYW5jZSAmIHJlc3BvbnNpdmUgb3B0aW1pc2F0aW9uJywKICAgIGRlc2M6ICdSZXNwb25zaXZlIGxheW91dHMsIGNyb3NzLWJyb3dzZXIgY29tcGF0aWJpbGl0eSwgdXNhYmlsaXR5IGFuZCBwZXJmb3JtYW5jZSBvcHRpbWlzYXRpb24gYWNyb3NzIGRpZ2l0YWwgcGxhdGZvcm1zLicsCiAgfSwKXTsKCmV4cG9ydCBjb25zdCBzZXJ2aWNlcyA9IFsKICB7CiAgICBubzogJzAxJywKICAgIHRpdGxlOiAnRnJvbnRlbmQgJiBSZXNwb25zaXZlIEludGVyZmFjZXMnLAogICAgaXRlbXM6IFsKICAgICAgJ1Jlc3BvbnNpdmUgbGF5b3V0cyBmb3IgYnJvd3NlcnMgYW5kIGRldmljZXMnLAogICAgICAnUmV1c2FibGUsIG1haW50YWluYWJsZSBVSSBjb21wb25lbnRzJywKICAgICAgJ0ZpZ21hIHByb3RvdHlwZXMgdHVybmVkIGludG8gcHJvZHVjdGlvbiBpbnRlcmZhY2VzJywKICAgICAgJ0Nyb3NzLWJyb3dzZXIgY29tcGF0aWJpbGl0eSBjaGVja3MnLAogICAgXSwKICB9LAogIHsKICAgIG5vOiAnMDInLAogICAgdGl0bGU6ICdSZWFjdC5qcyAmIE5leHQuanMgRGV2ZWxvcG1lbnQnLAogICAgaXRlbXM6IFsKICAgICAgJ0NvbXBvbmVudC1iYXNlZCBpbnRlcmZhY2VzIGluIFJlYWN0LmpzJywKICAgICAgJ05leHQuanMgcGFnZXMsIHJvdXRpbmcgYW5kIHNlcnZlci1yZW5kZXJlZCB2aWV3cycsCiAgICAgICdTdGF0ZSBtYW5hZ2VtZW50IHdpdGggUmVkdXgnLAogICAgICAnVHlwZVNjcmlwdCBmb3Igc2FmZXIsIGNsZWFuZXIgY29kZScsCiAgICBdLAogIH0sCiAgewogICAgbm86ICcwMycsCiAgICB0aXRsZTogJ0UtY29tbWVyY2UgSW1wbGVtZW50YXRpb24nLAogICAgaXRlbXM6IFsKICAgICAgJ1Byb2R1Y3QgcGFnZXMgYW5kIHByb21vdGlvbmFsIGxhbmRpbmcgcGFnZXMnLAogICAgICAnTXVsdGktbWFya2V0IHN0b3JlZnJvbnRzIGFjcm9zcyBuaW5lIEV1cm9wZWFuIG1hcmtldHMnLAogICAgICAnQ29udGVudCBpbnRlZ3JhdGlvbiBhbmQgd2Vic2l0ZSBlbmhhbmNlbWVudHMnLAogICAgICAnQ29uc2lzdGVudCBkZXNpZ24gYWNyb3NzIGRpZ2l0YWwgcGxhdGZvcm1zJywKICAgIF0sCiAgfSwKICB7CiAgICBubzogJzA0JywKICAgIHRpdGxlOiAnQVBJIEludGVncmF0aW9uICYgUGVyZm9ybWFuY2UnLAogICAgaXRlbXM6IFsKICAgICAgJ1JFU1QgQVBJIGludGVncmF0aW9uIGZvciBwbGF0Zm9ybXMgYW5kIGFkbWluIHBhbmVscycsCiAgICAgICdQZXJmb3JtYW5jZSB0dW5pbmcgYWNyb3NzIGJyb3dzZXJzIGFuZCBkZXZpY2VzJywKICAgICAgJ1VzYWJpbGl0eSBhbmQgZnJvbnQtZW5kIG9wdGltaXNhdGlvbicsCiAgICAgICdDbGVhbiwgbWFpbnRhaW5hYmxlIGNvZGUnLAogICAgXSwKICB9LAogIHsKICAgIG5vOiAnMDUnLAogICAgdGl0bGU6ICdFbWFpbCAmIE5ld3NsZXR0ZXIgRGV2ZWxvcG1lbnQnLAogICAgaXRlbXM6IFsKICAgICAgJ05ld3NsZXR0ZXIgY2FtcGFpZ24gZGVzaWduIGFuZCBkZXZlbG9wbWVudCcsCiAgICAgICdSZXNwb25zaXZlIGVtYWlsIGxheW91dHMnLAogICAgICAnSFRNTCBlbWFpbCBzaWduYXR1cmVzJywKICAgICAgJ1Byb21vdGlvbmFsIGVtYWlsIGNvbW11bmljYXRpb24nLAogICAgXSwKICB9LAogIHsKICAgIG5vOiAnMDYnLAogICAgdGl0bGU6ICdTRU8gJiBXZWIgT3B0aW1pc2F0aW9uJywKICAgIGl0ZW1zOiBbCiAgICAgICdTRU8gb3B0aW1pc2F0aW9uIGFuZCBjb250ZW50IG9wdGltaXNhdGlvbicsCiAgICAgICdXZWIgcGFnZSBvcHRpbWlzYXRpb24nLAogICAgICAnV2Vic2l0ZSBwZXJmb3JtYW5jZSBpbXByb3ZlbWVudHMnLAogICAgICAnU3RydWN0dXJlZCwgdXNlci1mb2N1c2VkIHBhZ2UgbGF5b3V0cycsCiAgICBdLAogIH0sCl07CgpleHBvcnQgY29uc3QgZXhwZXJpZW5jZSA9IFsKICB7CiAgICBjb21wYW55OiAnWnlkdXMgV2VsbG5lc3MnLAogICAgcm9sZTogJ1dlYiBEZXZlbG9wZXInLAogICAgZGF0ZTogJ0F1ZyAyMDI14oCTcHJlc2VudCcsCiAgICBkZXNjOiAnUmVzcG9uc2l2ZSBlLWNvbW1lcmNlIHdlYiBpbnRlcmZhY2VzLCBwcm9kdWN0IHBhZ2VzLCBVSSBjb21wb25lbnRzLCBjb250ZW50IGludGVncmF0aW9uLCBwcm9tb3Rpb25hbCBsYW5kaW5nIHBhZ2VzIGFuZCB3ZWJzaXRlIGVuaGFuY2VtZW50cywgcGx1cyBuZXdzbGV0dGVyIGRldmVsb3BtZW50IGFuZCBlbWFpbCBjYW1wYWlnbnMuJywKICB9LAogIHsKICAgIGNvbXBhbnk6ICdDb21mb3J0IENsaWNrIFB2dC4gTHRkLicsCiAgICByb2xlOiAnV2ViIERldmVsb3BlcicsCiAgICBkYXRlOiAnQXByIDIwMjPigJNKdWwgMjAyNScsCiAgICBkZXNjOiAnV2ViIGRldmVsb3BtZW50IGZvciBXZWlnaHRXb3JsZCwgU2h5dG9CdXkgYW5kIEFuaW1pZ28gYWNyb3NzIG5pbmUgRXVyb3BlYW4gbWFya2V0cywgd2l0aCBhIGZvY3VzIG9uIHdlYnNpdGUgaW1wbGVtZW50YXRpb24sIG9wdGltaXNhdGlvbiBhbmQgZS1jb21tZXJjZSByZXF1aXJlbWVudHMuJywKICB9LAogIHsKICAgIGNvbXBhbnk6ICdEU1BMIFB2dC4gTHRkLicsCiAgICByb2xlOiAnSFRNTCBEZXZlbG9wZXInLAogICAgZGF0ZTogJycsCiAgICBkZXNjOiAnUmVzcG9uc2l2ZSB3ZWIgbGF5b3V0cywgcGFnZSBzdHJ1Y3R1cmVzIGFuZCBkaWdpdGFsIGNvbnRlbnQgY29tcG9uZW50cyBhcyBhbiBIVE1MIERldmVsb3Blci4nLAogIH0sCiAgewogICAgY29tcGFueTogJ051bWVyYXRvcicsCiAgICByb2xlOiAnRGF0YSBDbGFzc2lmaWNhdGlvbiAmIFJlc2VhcmNoZXInLAogICAgZGF0ZTogJycsCiAgICBkZXNjOiAnRGF0YSBjbGFzc2lmaWNhdGlvbiBhbmQgcmVzZWFyY2ggcHJvamVjdHMgaW52b2x2aW5nIEZNQ0cgcHJvZHVjdHMsIHN1cHBsaWVyIGluZm9ybWF0aW9uIGFuZCBzdHJ1Y3R1cmVkIHByb2R1Y3QgZGF0YS4nLAogIH0sCl07CgpleHBvcnQgY29uc3Qgc2tpbGxzID0gWwogICdSZWFjdCcsCiAgJ05leHQuanMnLAogICdUeXBlU2NyaXB0JywKICAnUmVkdXgnLAogICdUYWlsd2luZCBDU1MnLAogICdIVE1MNScsCiAgJ0NTUzMnLAogICdKYXZhU2NyaXB0JywKICAnUkVTVCBBUElzJywKICAnQm9vdHN0cmFwJywKICAnU1FMJywKXTsKCg==
+// Verified locally with the exact Vercel lockfile build.
+export const site = {
+  name: 'Shambhu Sharan',
+  title: 'Frontend Developer | AI Prompt Engineer | FMCG Data Researcher | Python Developer',
+  intro:
+    'Frontend UI developer with 6+ years of professional frontend developer experience. Builds fast, user-focused websites, admin panels and email campaigns for multi-brand retail across nine European markets. Skilled at turning Figma prototypes into reusable interfaces, integrating APIs and tuning performance across browsers and devices. Seeking a React.js and Next.js role.',
+  description:
+    'Shambhu Sharan Kumar is a Frontend Developer with hands-on experience in responsive UI development, web applications, AI-assisted workflows, and FMCG data research.',
+};
+
+export const links = {
+  email: 'Shambhusharankumar@outlook.com',
+  phone: '9508133776',
+  linkedin: 'https://linkedin.com/in/shambhu-sharan-kumar-0029b5192',
+  github: 'https://github.com/Shambhusharankumarwebdeveloper',
+};
+
+export const nav = [
+  { id: 'home', label: 'HOME' },
+  { id: 'about', label: 'ABOUT' },
+  { id: 'services', label: 'SERVICES' },
+  { id: 'work', label: 'SELECTED WORK' },
+  { id: 'experience', label: 'EXPERIENCE' },
+  { id: 'contact', label: 'CONTACT' },
+];
+
+export const conceptWords = ['IMAGINE.', 'ENGINEER.', 'LAUNCH.'];
+
+export const works = [
+  {
+    no: '01',
+    title: 'Multi-market e-commerce storefronts',
+    desc: 'Storefront work for WeightWorld, ShytoBuy and Animigo across nine European markets — responsive pages, reusable components and content integration.',
+  },
+  {
+    no: '02',
+    title: 'Zydus Wellness platforms & admin panel',
+    desc: 'E-commerce platforms and an admin panel at Zydus Wellness — product pages, UI components, promotional landing pages and website enhancements.',
+  },
+  {
+    no: '03',
+    title: 'Email & newsletter campaigns',
+    desc: 'Newsletter development, email campaigns and HTML email signature implementation, built responsively for browsers and devices.',
+  },
+  {
+    no: '04',
+    title: 'Performance & responsive optimisation',
+    desc: 'Responsive layouts, cross-browser compatibility, usability and performance optimisation across digital platforms.',
+  },
+];
+
+export const services = [
+  {
+    no: '01',
+    title: 'Frontend & Responsive Interfaces',
+    items: [
+      'Responsive layouts for browsers and devices',
+      'Reusable, maintainable UI components',
+      'Figma prototypes turned into production interfaces',
+      'Cross-browser compatibility checks',
+    ],
+  },
+  {
+    no: '02',
+    title: 'React.js & Next.js Development',
+    items: [
+      'Component-based interfaces in React.js',
+      'Next.js pages, routing and server-rendered views',
+      'State management with Redux',
+      'TypeScript for safer, cleaner code',
+    ],
+  },
+  {
+    no: '03',
+    title: 'E-commerce Implementation',
+    items: [
+      'Product pages and promotional landing pages',
+      'Multi-market storefronts across nine European markets',
+      'Content integration and website enhancements',
+      'Consistent design across digital platforms',
+    ],
+  },
+  {
+    no: '04',
+    title: 'API Integration & Performance',
+    items: [
+      'REST API integration for platforms and admin panels',
+      'Performance tuning across browsers and devices',
+      'Usability and front-end optimisation',
+      'Clean, maintainable code',
+    ],
+  },
+  {
+    no: '05',
+    title: 'Email & Newsletter Development',
+    items: [
+      'Newsletter campaign design and development',
+      'Responsive email layouts',
+      'HTML email signatures',
+      'Promotional email communication',
+    ],
+  },
+  {
+    no: '06',
+    title: 'SEO & Web Optimisation',
+    items: [
+      'SEO optimisation and content optimisation',
+      'Web page optimisation',
+      'Website performance improvements',
+      'Structured, user-focused page layouts',
+    ],
+  },
+];
+
+export const experience = [
+  {
+    company: 'Zydus Wellness',
+    role: 'Web Developer',
+    date: 'Aug 2025–present',
+    desc: 'Responsive e-commerce web interfaces, product pages, UI components, content integration, promotional landing pages and website enhancements, plus newsletter development and email campaigns.',
+  },
+  {
+    company: 'Comfort Click Pvt. Ltd.',
+    role: 'Web Developer',
+    date: 'Apr 2023–Jul 2025',
+    desc: 'Web development for WeightWorld, ShytoBuy and Animigo across nine European markets, with a focus on website implementation, optimisation and e-commerce requirements.',
+  },
+  {
+    company: 'DSPL Pvt. Ltd.',
+    role: 'HTML Developer',
+    date: '',
+    desc: 'Responsive web layouts, page structures and digital content components as an HTML Developer.',
+  },
+  {
+    company: 'Numerator',
+    role: 'Data Classification & Researcher',
+    date: '',
+    desc: 'Data classification and research projects involving FMCG products, supplier information and structured product data.',
+  },
+];
+
+export const skills = [
+  'React',
+  'Next.js',
+  'TypeScript',
+  'Redux',
+  'Tailwind CSS',
+  'HTML5',
+  'CSS3',
+  'JavaScript',
+  'REST APIs',
+  'Bootstrap',
+  'SQL',
+];
+
