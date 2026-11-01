@@ -1,1 +1,8 @@
-IyBTaGFtYmh1IFNoYXJhbiBLdW1hciDigJQgTmV3IFBvcnRmb2xpbwoKRGFyayBsaW1lIHBvcnRmb2xpbyBkZXNpZ24gKGluc3BpcmVkIGJ5IHRoZSByZWVsIGRlc2lnbiBTaGl2YSBwaWNrZWQpLgpOZXh0LmpzIDE0ICsgUmVhY3QgMTggKyBUeXBlU2NyaXB0ICsgVGFpbHdpbmQgQ1NTLiBObyBBUEkga2V5IG5lZWRlZC4KClJ1biBsb2NhbGx5OiBgbnBtIGluc3RhbGxgIHRoZW4gYG5wbSBydW4gZGV2YApCdWlsZDogYG5wbSBydW4gYnVpbGRgCkRlcGxveTogaW1wb3J0IHRoaXMgcmVwbyBpbiBWZXJjZWwgYW5kIGRlcGxveS4K
+# Shambhu Sharan Kumar — New Portfolio
+
+Dark lime portfolio design (inspired by the reel design Shiva picked).
+Next.js 14 + React 18 + TypeScript + Tailwind CSS. No API key needed.
+
+Run locally: `npm install` then `npm run dev`
+Build: `npm run build`
+Deploy: import this repo in Vercel and deploy.
