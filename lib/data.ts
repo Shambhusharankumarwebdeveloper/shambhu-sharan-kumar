@@ -11,7 +11,7 @@ export const site = {
 export const links = {
   email: 'Shambhusharankumar@outlook.com',
   phone: '9508133776',
-  linkedin: 'https://linkedin.com/in/shambhu-sharan-kumar-0029b5192',
+  linkedin: 'https://www.linkedin.com/in/shambhu-sharan-kumar/',
   github: 'https://github.com/Shambhusharankumarwebdeveloper',
 };
 
