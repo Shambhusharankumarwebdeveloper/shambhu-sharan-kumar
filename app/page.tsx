@@ -117,7 +117,7 @@ export default function PortfolioPage() {
                   </a>
                   <p className="flex items-center gap-2 text-xs font-semibold tracking-widest text-neutral-300">
                     <span className="lime-dot" aria-hidden="true" />
-                    AVAILABLE FOR COLLABORATIONS
+                    AVAILABLE FOR FULL TIME &amp; FREELANCE
                   </p>
                 </div>
                 <a
