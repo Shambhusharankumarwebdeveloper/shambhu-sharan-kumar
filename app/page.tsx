@@ -295,6 +295,13 @@ export default function PortfolioPage() {
                   <p className="mt-2 max-w-3xl leading-relaxed text-neutral-400">
                     {job.desc}
                   </p>
+                  {job.points && job.points.length > 0 ? (
+                    <ul className="mt-3 max-w-3xl list-disc space-y-1.5 pl-5 leading-relaxed text-neutral-400 marker:text-[var(--lime)]">
+                      {job.points.map((point) => (
+                        <li key={point}>{point}</li>
+                      ))}
+                    </ul>
+                  ) : null}
                 </li>
               ))}
             </ol>
