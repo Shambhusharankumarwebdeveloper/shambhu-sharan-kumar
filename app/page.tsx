@@ -18,7 +18,7 @@ import {
   nav,
   services,
   site,
-  skills,
+  skillGroups,
   works,
 } from '../lib/data';
 
@@ -320,16 +320,25 @@ export default function PortfolioPage() {
             >
               SKILLS
             </h2>
-            <ul className="mt-8 flex flex-wrap gap-3">
-              {skills.map((skill) => (
-                <li
-                  key={skill}
-                  className="rounded-full border border-white/10 bg-neutral-900 px-4 py-2 text-sm font-medium text-neutral-200"
-                >
-                  {skill}
-                </li>
+            <div className="mt-10 space-y-10">
+              {skillGroups.map((group) => (
+                <div key={group.category}>
+                  <h3 className="text-lg font-bold text-white sm:text-xl">
+                    {group.category}
+                  </h3>
+                  <ul className="mt-4 flex flex-wrap gap-3">
+                    {group.items.map((skill) => (
+                      <li
+                        key={skill}
+                        className="rounded-full border border-white/10 bg-neutral-900 px-4 py-2 text-sm font-medium text-neutral-200"
+                      >
+                        {skill}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </section>
 
