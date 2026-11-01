@@ -1,1 +1,8 @@
-ewogICJuYW1lIjogInNoYW1iaHUtcG9ydGZvbGlvIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgInByaXZhdGUiOiB0cnVlLAogICJzY3JpcHRzIjogeyAiZGV2IjogIm5leHQgZGV2IiwgImJ1aWxkIjogIm5leHQgYnVpbGQiLCAic3RhcnQiOiAibmV4dCBzdGFydCIsICJsaW50IjogIm5leHQgbGludCIgfSwKICAiZGVwZW5kZW5jaWVzIjogeyAibHVjaWRlLXJlYWN0IjogIl4wLjQ1NC4wIiwgIm5leHQiOiAiMTQuMi4xNSIsICJyZWFjdCI6ICJeMTguMy4xIiwgInJlYWN0LWRvbSI6ICJeMTguMy4xIiB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7ICJAdHlwZXMvbm9kZSI6ICJeMjAuMTQuMCIsICJAdHlwZXMvcmVhY3QiOiAiXjE4LjMuMyIsICJAdHlwZXMvcmVhY3QtZG9tIjogIl4xOC4zLjAiLCAiYXV0b3ByZWZpeGVyIjogIl4xMC40LjE5IiwgInBvc3Rjc3MiOiAiXjguNC4zOCIsICJ0YWlsd2luZGNzcyI6ICJeMy40LjQiLCAidHlwZXNjcmlwdCI6ICJeNS41LjAiIH0KfQo=
+{
+  "name": "shambhu-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "lint": "next lint" },
+  "dependencies": { "lucide-react": "^0.454.0", "next": "14.2.15", "react": "^18.3.1", "react-dom": "^18.3.1" },
+  "devDependencies": { "@types/node": "^20.14.0", "@types/react": "^18.3.3", "@types/react-dom": "^18.3.0", "autoprefixer": "^10.4.19", "postcss": "^8.4.38", "tailwindcss": "^3.4.4", "typescript": "^5.5.0" }
+}
