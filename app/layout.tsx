@@ -1,1 +1,32 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnOwppbXBvcnQgeyBJbnRlciwgU3BhY2VfR3JvdGVzayB9IGZyb20gJ25leHQvZm9udC9nb29nbGUnOwppbXBvcnQgJy4vZ2xvYmFscy5jc3MnOwppbXBvcnQgeyBzaXRlIH0gZnJvbSAnQC9saWIvZGF0YSc7Cgpjb25zdCBpbnRlciA9IEludGVyKHsgc3Vic2V0czogWydsYXRpbiddLCB2YXJpYWJsZTogJy0tZm9udC1pbnRlcicsIGRpc3BsYXk6ICdzd2FwJyB9KTsKY29uc3QgZ3JvdGVzayA9IFNwYWNlX0dyb3Rlc2soeyBzdWJzZXRzOiBbJ2xhdGluJ10sIHZhcmlhYmxlOiAnLS1mb250LWdyb3Rlc2snLCBkaXNwbGF5OiAnc3dhcCcgfSk7Cgpjb25zdCB0aXRsZSA9IGAke3NpdGUubmFtZX0gfCBXZWIgRGV2ZWxvcGVyLCBBSSBQcm9tcHQgRW5naW5lZXIgJiBGTUNHIERhdGEgUmVzZWFyY2hlcmA7CgpleHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0gewogIG1ldGFkYXRhQmFzZTogbmV3IFVSTChwcm9jZXNzLmVudi5ORVhUX1BVQkxJQ19TSVRFX1VSTCA/PyAnaHR0cDovL2xvY2FsaG9zdDozMDAwJyksCiAgdGl0bGUsCiAgZGVzY3JpcHRpb246IHNpdGUuZGVzY3JpcHRpb24sCiAga2V5d29yZHM6IFsnU2hhbWJodSBTaGFyYW4gS3VtYXInLCAnV2ViIERldmVsb3BlcicsICdBSSBQcm9tcHQgRW5naW5lZXInLCAnRk1DRyBEYXRhIFJlc2VhcmNoZXInLCAnSFRNTCBEZXZlbG9wZXInLCAnRk1DRyBSZXNlYXJjaCcsICdQcm9kdWN0IERhdGEgUmVzZWFyY2gnLCAnRS1jb21tZXJjZSBXZWIgRGV2ZWxvcGVyJywgJ1NFTyBPcHRpbWl6YXRpb24nLCAnQUkgUHJvbXB0IEVuZ2luZWVyaW5nJ10sCiAgYXV0aG9yczogW3sgbmFtZTogc2l0ZS5uYW1lIH1dLAogIG9wZW5HcmFwaDogeyB0eXBlOiAnd2Vic2l0ZScsIHRpdGxlLCBkZXNjcmlwdGlvbjogc2l0ZS5kZXNjcmlwdGlvbiwgc2l0ZU5hbWU6IHNpdGUubmFtZSB9LAogIHR3aXR0ZXI6IHsgY2FyZDogJ3N1bW1hcnlfbGFyZ2VfaW1hZ2UnLCB0aXRsZSwgZGVzY3JpcHRpb246IHNpdGUuZGVzY3JpcHRpb24gfSwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgewogIGNvbnN0IGpzb25MZCA9IHsgJ0Bjb250ZXh0JzogJ2h0dHBzOi8vc2NoZW1hLm9yZycsICdAdHlwZSc6ICdQZXJzb24nLCBuYW1lOiBzaXRlLm5hbWUsIGpvYlRpdGxlOiAnV2ViIERldmVsb3BlciwgQUkgUHJvbXB0IEVuZ2luZWVyICYgRk1DRyBEYXRhIFJlc2VhcmNoZXInIH07CiAgcmV0dXJuICgKICAgIDxodG1sIGxhbmc9ImVuIiBjbGFzc05hbWU9e2Ake2ludGVyLnZhcmlhYmxlfSAke2dyb3Rlc2sudmFyaWFibGV9YH0+CiAgICAgIDxib2R5PgogICAgICAgIDxhIGhyZWY9IiNhYm91dCIgY2xhc3NOYW1lPSJzci1vbmx5IGZvY3VzOm5vdC1zci1vbmx5IGZvY3VzOmZpeGVkIGZvY3VzOmxlZnQtMyBmb2N1czp0b3AtMyBmb2N1czp6LTUwIGZvY3VzOnJvdW5kZWQgZm9jdXM6YmctYWNjZW50IGZvY3VzOnB4LTMgZm9jdXM6cHktMiBmb2N1czp0ZXh0LWluay05NTAiPlNraXAgdG8gY29udGVudDwvYT4KICAgICAgICB7Y2hpbGRyZW59CiAgICAgICAgPHNjcmlwdCB0eXBlPSJhcHBsaWNhdGlvbi9sZCtqc29uIiBkYW5nZXJvdXNseVNldElubmVySFRNTD17eyBfX2h0bWw6IEpTT04uc3RyaW5naWZ5KGpzb25MZCkgfX0gLz4KICAgICAgPC9ib2R5PgogICAgPC9odG1sPgogICk7Cn0K
+import type { Metadata } from 'next';
+import { Inter, Space_Grotesk } from 'next/font/google';
+import './globals.css';
+import { site } from '@/lib/data';
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
+const grotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-grotesk', display: 'swap' });
+
+const title = `${site.name} | Web Developer, AI Prompt Engineer & FMCG Data Researcher`;
+
+export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
+  title,
+  description: site.description,
+  keywords: ['Shambhu Sharan Kumar', 'Web Developer', 'AI Prompt Engineer', 'FMCG Data Researcher', 'HTML Developer', 'FMCG Research', 'Product Data Research', 'E-commerce Web Developer', 'SEO Optimization', 'AI Prompt Engineering'],
+  authors: [{ name: site.name }],
+  openGraph: { type: 'website', title, description: site.description, siteName: site.name },
+  twitter: { card: 'summary_large_image', title, description: site.description },
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const jsonLd = { '@context': 'https://schema.org', '@type': 'Person', name: site.name, jobTitle: 'Web Developer, AI Prompt Engineer & FMCG Data Researcher' };
+  return (
+    <html lang="en" className={`${inter.variable} ${grotesk.variable}`}>
+      <body>
+        <a href="#about" className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-50 focus:rounded focus:bg-accent focus:px-3 focus:py-2 focus:text-ink-950">Skip to content</a>
+        {children}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      </body>
+    </html>
+  );
+}
