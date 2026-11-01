@@ -5,7 +5,7 @@ export const site = {
   intro:
     'Frontend UI developer with 6+ years of professional frontend developer experience. Builds fast, user-focused websites, admin panels and email campaigns for multi-brand retail across nine European markets. Skilled at turning Figma prototypes into reusable interfaces, integrating APIs and tuning performance across browsers and devices. Seeking a React.js and Next.js role.',
   description:
-    'Shambhu Sharan Kumar is a Frontend Developer with hands-on experience in responsive UI development, web applications, AI-assisted workflows, and FMCG data research.',
+    'Frontend Developer | React.js, Next.js & JavaScript | UI Engineering | Responsive Web Applications | AI-Assisted Development',
 };
 
 export const links = {
