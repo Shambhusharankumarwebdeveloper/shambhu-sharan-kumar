@@ -84,7 +84,7 @@ export default function PortfolioPage() {
 
             <div className="mt-10 flex flex-col items-center gap-8 text-center lg:flex-row lg:items-start lg:text-left">
               <img
-                src="/profile.jpg"
+                src="https://raw.githubusercontent.com/Shambhusharankumarwebdeveloper/Shambhu-Sharan/master/public/profile.jpg"
                 alt="Shambhu Sharan Kumar"
                 className="hero-photo"
               />
